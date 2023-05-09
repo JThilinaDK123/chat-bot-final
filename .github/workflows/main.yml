@@ -10,8 +10,8 @@ env:
   GKE_CLUSTER: cc-cluster
   GKE_ZONE: asia-south1-a
   DEPLOYMENT_NAME: deployment-nodeapp-chat-bot
-  IMAGE: gcr.io/cc-coursework-382102/chat-bot-image
-  TAG: 1.0.0
+  IMAGE: chat-bot-image
+  TAG: 2.0.0
 
 jobs:
   CICD_Pipeline:
